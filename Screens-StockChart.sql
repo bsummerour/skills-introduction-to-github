@@ -4,13 +4,49 @@
 A robust scan has three main parts:
 
 Defining the universe. Which group of stocks or ETFs are you 
-willing to invest in? This comprises your “universe” of securities.
+willing to invest in? This comprises your ï¿½universeï¿½ of securities.
 
 Refining the universe with technical conditions. What technical
 indicator setup would interest you in watching a particular stock?
 
 Watching for a signal. What change in indicator values would make
 you want to buy that stock today?
+
+
+
+-- COMPARISON OPERATORS
+
+-- Some are usually used for text comparisons:
+
+	is
+
+	is not
+
+	contains
+
+	not contains
+
+	starts with
+
+	ends with
+
+-- Some are usually used for number comparisons:
+
+	= (equals)
+
+	< (is less than)
+
+	<= (is less than or equal to)
+
+	> (is greater than)
+
+	>= (is greater than or equal to)
+
+	!= (is not equal to)
+
+	x (crosses above)
+
+
 */
 
 
@@ -81,22 +117,6 @@ Runaway Gap Downs (All Exchanges)
 	and [Yesterdays Daily Close < Yesterdays Daily EMA(10,Daily Close)]
 	and [Daily High < Yesterdays Daily Low * 0.975]
 	and [Daily Low != Daily High]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

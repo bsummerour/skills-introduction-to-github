@@ -1,0 +1,39 @@
+{
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "sqltools.connections": [
+        {
+            "dbDriver": "mssqlnodev8",
+            "connectionMethod": "Integrated",
+            "connectionTimeout": 15,
+            "sidePanelOptions": {
+                "inaccessibleDatabase": true,
+                "inaccessibleSchema": true
+            },
+            "previewLimit": 50,
+            "odbcDriver": "SQL Server",
+            "port": 1433,
+            "msnodesqlv8Options": {},
+            "driver": "SQL Server/Azure+",
+            "name": "HP-PAVILION\\SQLEXPRESS",
+            "server": "HP-PAVILION\\SQLEXPRESS",
+            "database": "StockInvestDB"
+        },
+        {
+            "dbDriver": "mssqlnodev8",
+            "connectionMethod": "Integrated",
+            "connectionTimeout": 60,
+            "sidePanelOptions": {
+                "inaccessibleDatabase": true,
+                "inaccessibleSchema": true
+            },
+            "previewLimit": 50,
+            "odbcDriver": "SQL Server Native Client 11.0",
+            "port": 1488,
+            "msnodesqlv8Options": {},
+            "driver": "SQL Server/Azure+",
+            "name": "MSSQL Native Driver",
+            "database": "StockInvestDB",
+            "server": "HP-PAVILION\\SQLEXPRESS"
+        }
+    ]
+}
